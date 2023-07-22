@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/ShriGopalGarmentS/static/css/main.1b42291e.css",
+    "main.js": "/ShriGopalGarmentS/static/js/main.c905cf2b.js",
+    "static/media/blog4.webp": "/ShriGopalGarmentS/static/media/blog4.f107f788dbf366efaf27.webp",
+    "static/media/blog1.webp": "/ShriGopalGarmentS/static/media/blog1.2fa2078cdbbd8a1ba547.webp",
+    "static/media/blog7.webp": "/ShriGopalGarmentS/static/media/blog7.9dae9717fa3d1f2550ed.webp",
+    "static/media/blog6.webp": "/ShriGopalGarmentS/static/media/blog6.3c0eb8466f0d3c4f3a7d.webp",
+    "static/media/blog2.webp": "/ShriGopalGarmentS/static/media/blog2.2f25bd4f7035c81a23ae.webp",
+    "static/media/bgoverlay.webp": "/ShriGopalGarmentS/static/media/bgoverlay.3a26bf7afda9d08013af.webp",
+    "static/media/card1.webp": "/ShriGopalGarmentS/static/media/card1.8b65f9133a69b37d4827.webp",
+    "static/media/slider2.webp": "/ShriGopalGarmentS/static/media/slider2.420a26d38a4b7f661d28.webp",
+    "static/media/slider1.webp": "/ShriGopalGarmentS/static/media/slider1.28c9298ee78c68f5b0a4.webp",
+    "static/media/sl2_m.webp": "/ShriGopalGarmentS/static/media/sl2_m.2dcbc7b8d822d71e8c36.webp",
+    "static/media/blog_1.jpg": "/ShriGopalGarmentS/static/media/blog_1.a0f3ed782f87c3b8b5b3.jpg",
+    "static/media/blog_3.jpeg": "/ShriGopalGarmentS/static/media/blog_3.88de0487b7e63d6336d8.jpeg",
+    "static/media/blog3.webp": "/ShriGopalGarmentS/static/media/blog3.9417085ac9b97847f7d6.webp",
+    "static/media/blog8.webp": "/ShriGopalGarmentS/static/media/blog8.578449f55b4a2cdc308c.webp",
+    "static/media/blog5.webp": "/ShriGopalGarmentS/static/media/blog5.560ce905fc42c5f6568c.webp",
+    "static/media/home_women.webp": "/ShriGopalGarmentS/static/media/home_women.cdbc8e272c4df7e199ca.webp",
+    "static/media/men_home.webp": "/ShriGopalGarmentS/static/media/men_home.5d8e5bc6c9e7ed0a5d33.webp",
+    "static/media/blog_2.webp": "/ShriGopalGarmentS/static/media/blog_2.68f3848dc8d5706ed20d.webp",
+    "static/media/kids_home.webp": "/ShriGopalGarmentS/static/media/kids_home.951107dbb05e1e81f76f.webp",
+    "index.html": "/ShriGopalGarmentS/index.html",
+    "static/media/angle.svg": "/ShriGopalGarmentS/static/media/angle.8136f2939050c99c0290213367622c21.svg",
+    "main.1b42291e.css.map": "/ShriGopalGarmentS/static/css/main.1b42291e.css.map",
+    "main.c905cf2b.js.map": "/ShriGopalGarmentS/static/js/main.c905cf2b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b42291e.css",
+    "static/js/main.c905cf2b.js"
+  ]
+}
