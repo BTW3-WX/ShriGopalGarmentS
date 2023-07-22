@@ -1,7 +1,7 @@
 import React,{ useEffect } from 'react'
 import '../styles/Navbar.css'
 import $ from 'jquery'
-import { NavLink } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
 
 
 const Navbar = () => {
@@ -56,9 +56,12 @@ const Navbar = () => {
 								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active">
 									<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Collections</a>
 									<div class="dropdown-menu">
-									<NavLink to="/collection/men"><a class="dropdown-item">Men's</a></NavLink>
-									<NavLink to="/collection/women"><a class="dropdown-item">Women's</a></NavLink>
-									<NavLink to="/collection/kids"><a class="dropdown-item">Kid's</a></NavLink>
+									{/* <NavLink to="/collection/men"><a class="dropdown-item">Men's</a></NavLink> */}
+									<a href='/ShriGopalGarmentS/collection/men' class="dropdown-item">Men's</a>
+									{/* <NavLink to="/collection/women"><a class="dropdown-item">Women's</a></NavLink> */}
+									<a href='/ShriGopalGarmentS/collection/women' class="dropdown-item">Women's</a>
+									{/* <NavLink to="/collection/kids"><a class="dropdown-item">Kid's</a></NavLink> */}
+									<a href='/ShriGopalGarmentS/collection/kids' class="dropdown-item">Kid's</a>
 									</div>
 								</li>
 								{/* <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
