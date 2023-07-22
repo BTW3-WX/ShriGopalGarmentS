@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import Homepage from './components/Homepage';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import Contact from './components/Contact';
+import Blog from './components/Blog';
+import Collection_m from './components/Collection_m';
+import Collection_w from './components/Collection_w';
+import Collection_k from './components/Collection_k';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Navbar/>
+      <Routes>
+      <Route path='/' element={<Homepage/>}/>
+      <Route path='/blog' element={<Blog/>}/>
+      <Route path='/collection/men' element={<Collection_m/>}/>
+      <Route path='/collection/women' element={<Collection_w/>}/>
+      <Route path='/collection/kids' element={<Collection_k/>}/>
+      <Route path='/contact' element={<Contact/>}/>
+      </Routes>
+      <Footer/>
+    </Router>
   );
 }
 

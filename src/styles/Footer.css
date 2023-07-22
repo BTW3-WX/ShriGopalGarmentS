@@ -1,0 +1,92 @@
+footer{
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px 0 60px 0;
+    background-color: #f8f9fa!important;
+}
+.f12,.f22{
+    max-width: 25vw;
+    margin: 20px 0;
+}
+
+.f22 a{
+    color: black;
+    font-weight: 600;
+}
+.f12 a{
+    color: black;
+    font-weight: 600;
+}
+.f22 a:hover{
+    color: #8167a9;
+    text-decoration: none;
+}
+.f12 a:hover{
+    color: #8167a9;
+    text-decoration: none;
+}
+
+.f13{
+    padding: 20px 0;
+}
+.f13-font{
+    border-radius: 45px;
+    padding: 10px 15px;
+    background: #dee2e6;
+    color: black;
+    margin-right: 15px;
+}
+.f43{
+    display: flex;
+    justify-content: center;
+
+}
+.f43 input{
+    padding: 7px 10px;
+    background: #dee2e6;
+    border: none;
+}
+.f43 input:active{
+    border: none;
+}
+.f43 button{
+    padding: 7px 15px;
+    background-color: orange;
+    border: none;
+    font-weight: 600;
+    color: white;
+}
+.foo-bel{
+    background-color: #f8f9fa;
+    color: black;
+    text-align: center;
+    padding: 2px 0;
+  }
+.foo-bel p{
+    margin: 10px 0;
+}
+
+  .fade_rule {
+    height: 1px;
+    background-color: #E6E6E6;
+    /* width: 66.0em; */
+    margin: 0 auto;
+    background-image: linear-gradient(left , white 2%, #E6E6E6 50%, white 98%);
+    background-image: -o-linear-gradient(left , white 2%, #E6E6E6 50%, white 98%);
+    background-image: -moz-linear-gradient(left , white 2%, #E6E6E6 50%, white 98%);
+    background-image: -webkit-linear-gradient(left , white 2%, #E6E6E6 50%, white 98%);
+    background-image: -ms-linear-gradient(left , white 2%, #E6E6E6 50%, white 98%);
+    background-image: -webkit-gradient( linear, left bottom, right bottom, color-stop(0.02, white), color-stop(0.5, gray), color-stop(0.98, white) );
+}
+
+@media only screen and (max-width: 600px) {
+    .f12{
+        max-width: 100vw !important;
+    }    
+    .f1{
+        padding: 25px 20px;
+
+    }
+}
+
