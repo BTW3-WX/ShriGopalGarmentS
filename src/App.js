@@ -10,7 +10,7 @@ import Collection_k from './components/Collection_k';
 
 function App() {
   return (
-    <Router>
+    <Router basename='/ShriGopalGarmentS'>
       <Navbar/>
       <Routes>
       <Route path='/' element={<Homepage/>}/>
