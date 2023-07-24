@@ -6,58 +6,55 @@ const Collection_w = () => {
     <>
     <div id="wrapper">
         
-        <div id="sidebar">
+    <div id="sidebar">
             <h3>CATEGORIES</h3>
             <div class="checklist categories">
                 <ul>
-                    <li><a href=""> New Arivals</a></li>
-                    <li><a href=""> Accesories</a></li>
-                    <li><a href=""> Bags</a></li>
-                    <li><a href=""> Dressed</a></li>
-                    <li><a href=""> Jackets</a></li>
-                    <li><a href=""> jewelry</a></li>
-                    <li><a href=""> Shoes</a></li>
-                    <li><a href=""> Shirts</a></li>
-                    <li><a href=""> Sweaters</a></li>
-                    <li><a href=""> T-shirts</a></li>
+                    <li>New Arivals</li>
+                    <li>Accesories</li>
+                    <li>Bags</li>
+                    <li>Dressed</li>
+                    <li>Jackets</li>
+                    <li>jewelry</li>
+                    <li>Shoes</li>
+                    <li>Shirts</li>
+                    <li>Sweaters</li>
+                    <li>T-shirts</li>
                 </ul>
             </div>
-
-
             <h3>SIZES</h3>
             <div class="checklist sizes">
                 <ul>
-                    <li><a href=""> XS</a></li>
-                    <li><a href=""> S</a></li>
-                    <li><a href=""> M</a></li>
+                    <li>XS</li>
+                    <li>S</li>
+                    <li>M</li>
                 </ul>
 
                 <ul>
-                    <li><a href=""> L</a></li>
-                    <li><a href=""> XL</a></li>
-                    <li><a href=""> XXL</a></li>
+                    <li>L</li>
+                    <li>XL</li>
+                    <li>XXL</li>
                 </ul>
             </div>
 
             {/* <!-- <h3>PRICE RANGE</h3> -->
             <!-- <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/price-range.png" alt="" /> --> */}
             <div class="slidecontainer">
-                <input type="range" min="100" max="1000" value="500" class="slider" id="myRange" />
+                <input type="range" min="100" max="1000" value="500" class="slider" id="myRange"/>
                 <p><span id="demo"></span></p>
             </div>
-
         </div>
         <div className="col-main">
         <div id="grid-selector">
-            <span>Showing 1–12 of 12 results</span>
+            {/* <span>Showing 1–12 of 12 results</span> */}
             <h1>Women's Collection</h1>
-            <div id="grid-menu">
+            {/* <div id="grid-menu">
                 View:
                 <ul>
                     <li class="largeGrid"><a href=""></a></li>
                     <li class="smallGrid"><a class="active" href=""></a></li>
                 </ul>
-            </div>
+            </div> */}
         </div>
         <div id="grid">
             <div class="product">
