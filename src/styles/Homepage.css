@@ -198,7 +198,7 @@ img{
 {
     top:0;
 }
-.img-content button
+.img-content a
 {
     text-align: center;
     justify-content: center;
@@ -210,6 +210,11 @@ img{
     border-color: #e7ab3c;
     font-size: 18px;
     padding: 5px 25px;
+}
+.img-content a:hover{
+  color: #e7ab3c;
+  background-color: transparent;
+  border: 1px solid #e7ab3c;
 }
 
 .img-content
@@ -330,6 +335,11 @@ img{
   background-color: #e7ab3c;
   color: white;
   border-radius: 5px;
+  border: 1px solid #e7ab3c;
+}
+.blog-btn a:hover{
+  background-color: white;
+  color: #e7ab3c;
 }
 .blog-text span{
     color:#e7ab3c;
@@ -337,6 +347,7 @@ img{
 }
 
 .blog-text .blog-title{
+  line-height: 25px;
     text-decoration: none;
     color: #272727;
     font-size: 1.3rem;

@@ -20,6 +20,7 @@ import blog_3 from '../assets/blog_3.jpeg'
 import cardImg from '../assets/card1.webp'
 import angle from '../assets/angle.svg'
 import cardIm from '../assets/card1.webp'
+import { NavLink } from 'react-router-dom'
 
 const Homepage = () => {
     const slideshowRef = useRef(null);
@@ -54,7 +55,7 @@ const Homepage = () => {
         currentDot.classList.add('dot');
       }
       counter++;
-
+      
       timelineRef.current = gsap.timeline();
       timelineRef.current
         .fromTo(".sl-h6", {
@@ -138,7 +139,7 @@ const Homepage = () => {
     }
 
     slideshowRef.current = setInterval(slideshow, 8000);
-
+    slideshow();
     // IntersectionObserver Configuration
     const options = {
       root: null,
@@ -301,14 +302,14 @@ const Homepage = () => {
             <div class="column">
                 <img src={men_home} alt="" width="100%"/>
                 <div class="img-content">
-                    <button>Men's</button>
+                    <NavLink to='/collection/men'>Men's</NavLink>
                 </div>
             </div>
 
             <div class="column">
                 <img src={home_women} alt="" width="100%"/>
                 <div class="img-content">
-                    <button>Women's</button>
+                <NavLink to='/collection/women'>Women's</NavLink>
                 </div>
             </div>
            
@@ -316,7 +317,7 @@ const Homepage = () => {
             <div class="column">
                 <img src={kids_home} alt="" width="100%"/>
                 <div class="img-content">
-                    <button>Kid's</button>
+                <NavLink to='/collection/kids'>Kid's</NavLink>
                 </div>
             </div>
         </div>
@@ -362,7 +363,7 @@ const Homepage = () => {
                     <a href="#" class="blog-title">The Best Street From London Fashion Week</a>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit ajbfgy .</p>
                     {/* <!-- <a href="#">Read More</a> --> */}
-                    <span class="blog-btn"><a href="#">Read More</a></span>
+                    <span class="blog-btn"><NavLink to='/blog'>Read More</NavLink></span>
                 </div>
             </div>
             {/* <!-- BOX 2 --> */}
@@ -376,7 +377,7 @@ const Homepage = () => {
                     <a href="#" class="blog-title">The Best Street From London Fashion Week</a>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit ajbfgy .</p>
                     {/* <!-- <a href="#">Read More</a> --> */}
-                    <span class="blog-btn"><a href="#">Read More</a></span>
+                    <span class="blog-btn"><NavLink to='/blog'>Read More</NavLink></span>
                 </div>
             </div>
 
@@ -391,7 +392,7 @@ const Homepage = () => {
                     <a href="#" class="blog-title">The Best Street From London Fashion Week</a>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit ajbfgy .</p>
                     {/* <!-- <a href="#">Read More</a> --> */}
-                    <span class="blog-btn"><a href="#">Read More</a></span>                
+                    <span class="blog-btn"><NavLink to='/blog'>Read More</NavLink></span>                
                 </div>
             </div>
         </div>
