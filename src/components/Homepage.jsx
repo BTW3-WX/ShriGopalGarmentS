@@ -212,8 +212,8 @@ const Homepage = () => {
                     <h6 class="sl-h6">Kids</h6>
                     <h1 class="sl-h1">Black <br/> Friday</h1>
                     <p class="sl-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem qui assumenda doloremque non dignissimos recusandae suscipit expedita aliquid, vel explicabo inventore.</p>
-                    {/* <a class="sl-btn" href='/blog'>Visit Collection</a> */}
-                    <NavLink to="/collection/kids" class="sl-btn"><a>Visit Collection</a></NavLink>
+                    <a class="sl-btn" href='/blog'>Visit Collection</a>
+                    {/* <a  class="sl-btn"></a><NavLink to="/collection/kids">Visit Collection</NavLink> */}
                 </div>
             </div>
 
@@ -223,7 +223,7 @@ const Homepage = () => {
                     <h6 class="sl-h6">Kids</h6>
                     <h1 class="sl-h1">Black <br/> Friday</h1>
                     <p class="sl-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem qui assumenda doloremque non dignissimos recusandae suscipit expedita aliquid, vel explicabo inventore.</p>
-                    <NavLink to="/collection/women" class="sl-btn"><a>Visit Collection</a></NavLink>
+                    <NavLink to="/collection/women"><p class="sl-btn">Visit Collection</p></NavLink>
                 </div>
             </div>
             
