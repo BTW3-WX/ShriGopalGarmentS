@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ShriGopalGarmentS/static/css/main.397fb837.css",
-    "main.js": "/ShriGopalGarmentS/static/js/main.b767d613.js",
+    "main.js": "/ShriGopalGarmentS/static/js/main.3b24772f.js",
     "static/media/blog4.webp": "/ShriGopalGarmentS/static/media/blog4.f107f788dbf366efaf27.webp",
     "static/media/blog1.webp": "/ShriGopalGarmentS/static/media/blog1.2fa2078cdbbd8a1ba547.webp",
     "static/media/kid2.jpg": "/ShriGopalGarmentS/static/media/kid2.249e7d699cab3d1083ef.jpg",
@@ -31,10 +31,10 @@
     "index.html": "/ShriGopalGarmentS/index.html",
     "static/media/angle.svg": "/ShriGopalGarmentS/static/media/angle.8136f2939050c99c0290213367622c21.svg",
     "main.397fb837.css.map": "/ShriGopalGarmentS/static/css/main.397fb837.css.map",
-    "main.b767d613.js.map": "/ShriGopalGarmentS/static/js/main.b767d613.js.map"
+    "main.3b24772f.js.map": "/ShriGopalGarmentS/static/js/main.3b24772f.js.map"
   },
   "entrypoints": [
     "static/css/main.397fb837.css",
-    "static/js/main.b767d613.js"
+    "static/js/main.3b24772f.js"
   ]
 }
