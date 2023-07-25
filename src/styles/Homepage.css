@@ -496,7 +496,7 @@ img{
     text-align: center;
   }
   .brand-container--titleBox h1 {
-    border-bottom: 3px solid yellow;
+    border-bottom: 3px solid #e7ab3c;
     display: inline-block;
     padding-bottom: 0.5rem;
   }
@@ -613,7 +613,13 @@ img{
     position: relative;
     margin-top: 1rem;
   }
-  .product-container--top-right-btn:hover {
+  .product-container--top-right-btn a{
+    color: whitesmoke;
+  }
+  .product-container--top-right-btn:hover a{
+    color: black;
+  }
+  .product-container--top-right-btn:hover{
     background-color: whitesmoke;
     color: black;
   }

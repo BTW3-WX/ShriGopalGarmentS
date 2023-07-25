@@ -212,7 +212,8 @@ const Homepage = () => {
                     <h6 class="sl-h6">Kids</h6>
                     <h1 class="sl-h1">Black <br/> Friday</h1>
                     <p class="sl-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem qui assumenda doloremque non dignissimos recusandae suscipit expedita aliquid, vel explicabo inventore.</p>
-                    <a href="#" class="sl-btn">Visit Store</a>
+                    {/* <a class="sl-btn" href='/blog'>Visit Collection</a> */}
+                    <NavLink to="/collection/kids" class="sl-btn"><a>Visit Collection</a></NavLink>
                 </div>
             </div>
 
@@ -222,7 +223,7 @@ const Homepage = () => {
                     <h6 class="sl-h6">Kids</h6>
                     <h1 class="sl-h1">Black <br/> Friday</h1>
                     <p class="sl-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem qui assumenda doloremque non dignissimos recusandae suscipit expedita aliquid, vel explicabo inventore.</p>
-                    <a href="#" class="sl-btn">Visit Store</a>
+                    <NavLink to="/collection/women" class="sl-btn"><a>Visit Collection</a></NavLink>
                 </div>
             </div>
             
@@ -245,7 +246,8 @@ const Homepage = () => {
     <div className="slider2">
       <div className="sl2-main1">
         <h1>Women's</h1>
-        <a href="#">Discover More</a>
+        {/* <a href="#">Discover More</a> */}
+        <NavLink to='/collection/women'>Discover More</NavLink>
       </div>
       <div class="pic-ctn1">
         <h1>CLOTHING</h1>
@@ -458,7 +460,9 @@ const Homepage = () => {
                 <div class="product-container--top-right">
                     <p> We specialize in supplying our customers with wide variety of garments through a quality assured
                         procurement and production process. </p>
-                    <div class="product-container--top-right-btn">Explore Our Products</div>
+                    <div class="product-container--top-right-btn">
+                      <NavLink to='/collection/men'>Explore Our Products</NavLink>
+                    </div>
                 </div>
             </div>
             <div class="product-container--bottom">

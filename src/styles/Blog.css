@@ -265,7 +265,9 @@ ol {
 .blog-item .bi-text {
     padding-top: 24px;
 }
-
+.bi-text a:hover > h4{
+    color: #e7ab3c;
+}
 .blog-item .bi-text h4 {
     color: #252525;
     font-weight: 700;
@@ -615,6 +617,7 @@ ol {
     margin-bottom: 45px;
 }
 .col-lg-6:hover{
+    margin: 10px 0;
     background-color: #FFFAFAFA;
     color: #fff;
     padding: 10px 20px;
